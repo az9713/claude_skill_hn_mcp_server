@@ -98,9 +98,9 @@ You should see FastMCP help output. The server will appear to hang - this is nor
 {
   "mcpServers": {
     "hackernews": {
-      "command": "C:\\Users\\simon\\Downloads\\projects\\claude_code_skills\\skill_create_hn_mcp_server\\venv\\Scripts\\python.exe",
+      "command": "/path/to/python.exe",
       "args": [
-        "C:\\Users\\simon\\Downloads\\projects\\claude_code_skills\\skill_create_hn_mcp_server\\hackernews_mcp.py"
+        "/path/to/hackernews_mcp.py"
       ]
     }
   }
@@ -112,9 +112,9 @@ You should see FastMCP help output. The server will appear to hang - this is nor
 {
   "mcpServers": {
     "hackernews": {
-      "command": "C:\\Users\\simon\\Downloads\\projects\\claude_code_skills\\skill_create_hn_mcp_server\\venv\\Scripts\\python.exe",
+      "command": "/path/to/python.exe",
       "args": [
-        "C:\\Users\\simon\\Downloads\\projects\\claude_code_skills\\skill_create_hn_mcp_server\\hackernews_mcp.py"
+        "/path/to/hackernews_mcp.py"
       ]
     }
   }
