@@ -46,14 +46,14 @@ Using a virtual environment keeps dependencies isolated:
 
 **PowerShell:**
 ```powershell
-cd C:\Users\simon\Downloads\projects\claude_code_skills\skill_create_hn_mcp_server
+cd /path/to/claude_skill_create_hn_mcp_server
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
 
 **Git Bash:**
 ```bash
-cd /c/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server
+cd /path/to/claude_skill_create_hn_mcp_server
 python -m venv venv
 source venv/Scripts/activate
 ```
