@@ -11,8 +11,8 @@ def test_server_startup():
     print("Testing MCP server startup...")
 
     # Path to the server
-    python_exe = r"C:\Users\simon\Downloads\projects\claude_code_skills\skill_create_hn_mcp_server\venv\Scripts\python.exe"
-    server_script = r"C:\Users\simon\Downloads\projects\claude_code_skills\skill_create_hn_mcp_server\hackernews_mcp.py"
+    python_exe = r"/path/to/python.exe"
+    server_script = r"/path/to/hackernews_mcp.py"
 
     # Start the server process
     try:

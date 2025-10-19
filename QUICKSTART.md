@@ -13,13 +13,13 @@ Get the Hacker News MCP server running in 5 minutes!
 
 **PowerShell:**
 ```powershell
-cd C:\Users\simon\Downloads\projects\claude_code_skills\skill_create_hn_mcp_server
+cd /path/to/claude_skill_create_hn_mcp_server
 .\install.ps1
 ```
 
 **Git Bash:**
 ```bash
-cd /c/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server
+cd /path/to/claude_skill_create_hn_mcp_server
 bash install.sh
 ```
 
@@ -34,7 +34,7 @@ The script will:
 
 ```bash
 # Navigate to project directory
-cd C:\Users\simon\Downloads\projects\claude_code_skills\skill_create_hn_mcp_server
+cd /path/to/claude_skill_create_hn_mcp_server
 
 # Create virtual environment
 python -m venv venv
@@ -95,9 +95,9 @@ Add this to your `claude_desktop_config.json` (use the paths from Step 2):
 {
   "mcpServers": {
     "hackernews": {
-      "command": "C:\\Users\\simon\\Downloads\\projects\\claude_code_skills\\skill_create_hn_mcp_server\\venv\\Scripts\\python.exe",
+      "command": "/path/to/python.exe",
       "args": [
-        "C:\\Users\\simon\\Downloads\\projects\\claude_code_skills\\skill_create_hn_mcp_server\\hackernews_mcp.py"
+        "/path/to/hackernews_mcp.py"
       ]
     }
   }
