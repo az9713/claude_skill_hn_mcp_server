@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server that provides access to the Hacker News API. This server allows AI assistants like Claude to fetch stories, comments, user profiles, and other content from Hacker News.
 
+Created with Claude Code using Claude skill mcp-builder.
+
 ## Features
 
 - **9 Comprehensive Tools** for accessing Hacker News data:
@@ -378,7 +380,7 @@ This MCP server is provided as-is for use with the Hacker News API. The Hacker N
 
 - Hacker News API: Y Combinator
 - MCP Protocol: Anthropic
-- Server Implementation: Created with Claude Code
+- Server Implementation: Created with Claude Code with skill mcp-builder
 
 ## Support
 
