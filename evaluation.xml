@@ -1,0 +1,42 @@
+<evaluation>
+   <qa_pair>
+      <question>Find the story posted on Hacker News with ID 8863 that became famous for being a Y Combinator application. The story was about throwing away USB drives. What company was this story promoting?</question>
+      <answer>Dropbox</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Look up the Hacker News user 'pg'. This user is one of the co-founders of Y Combinator. What is this user's karma score? Provide only the numerical value.</question>
+      <answer>155111</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Examine the famous comment with ID 2921983 on Hacker News. The author is a well-known computer scientist. In this comment, the author makes a deal with readers about continuing to write. What is the username of the comment's author?</question>
+      <answer>norvig</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Find the Ask HN story with ID 121003 that discusses concerns about Hacker News changing after Arc was released. The author worries about 'Diggification'. What is the exact title of this post?</question>
+      <answer>Ask HN: The Arc Effect</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Look at the job posting with ID 192327 from Justin.tv (which later became Twitch). The posting is looking for a Lead Flash Engineer. According to the posting, how many people were on the team at that time? Provide only the number.</question>
+      <answer>10</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>The poll with ID 126809 was created by user 'pg' asking about explicit support for polls on Hacker News. One of the poll options (pollopt) with ID 160705 asks whether to ban Valleywag stories. What score did this poll option receive? Provide only the numerical value.</question>
+      <answer>335</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Find the story with ID 8863 about Dropbox. This story received many comments when it was posted. How many top-level comment threads (direct replies to the story) did it have? Count only the number of direct children in the 'kids' array.</question>
+      <answer>33</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Look up user 'jl' who is one of the early Hacker News users. According to their profile's 'about' section, what exact text did they write? Respond with the exact string.</question>
+      <answer>This is a test</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>The comment with ID 2921983 by user 'norvig' is a reply to another item. What is the ID of the parent item that this comment is replying to? Provide only the numerical ID.</question>
+      <answer>2921506</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>Story ID 8863 about Dropbox was posted at a specific Unix timestamp. Convert this timestamp to a human-readable date in the format YYYY-MM-DD. On what date was this story posted?</question>
+      <answer>2007-04-04</answer>
+   </qa_pair>
+</evaluation>

@@ -1,0 +1,10 @@
+# Hacker News MCP Server Dependencies
+
+# MCP Python SDK - Model Context Protocol framework
+mcp>=0.1.0
+
+# HTTP client library with async support
+httpx>=0.24.0
+
+# Data validation and settings management
+pydantic>=2.0.0

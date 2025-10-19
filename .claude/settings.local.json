@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/python.exe\" --version)",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/python.exe\" -c \"import mcp; print(''mcp version:'', mcp.__version__ if hasattr(mcp, ''__version__'') else ''unknown'')\")",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/python.exe\" test_server.py)",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/python.exe\" hackernews_mcp.py)",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/python.exe\" -c \"from mcp.server.fastmcp import FastMCP; print(''FastMCP imported successfully'')\")",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/pip.exe\" list)",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/python.exe\" -u hackernews_mcp.py --help)",
+      "Bash(test -f \"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/python.exe\")",
+      "Bash(test -f \"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/hackernews_mcp.py\")",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/python.exe\" debug_server.py)",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/python.exe\" -c \"import sys; sys.path.insert(0, ''C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server''); import hackernews_mcp; print(''Import successful''); print(''MCP object:'', hackernews_mcp.mcp)\")",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/pip.exe\" show mcp)",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/pip.exe\" install --upgrade mcp)",
+      "Bash(ls -la \"$HOME/.claude/\")",
+      "Bash(ls -la \"$APPDATA/Claude/\")",
+      "Bash(\"C:/Users/simon/Downloads/projects/claude_code_skills/skill_create_hn_mcp_server/venv/Scripts/python.exe\" -c \"from mcp.server.fastmcp import FastMCP; import inspect; print(inspect.signature(FastMCP.__init__))\")",
+      "Bash(ls -la \"$HOME/.claude/debug/\")",
+      "Read(//c/Users/simon/.claude/**)",
+      "mcp__hackernews__hn_get_top_stories",
+      "mcp__hackernews__hn_get_item",
+      "WebFetch(domain:3quarksdaily.com)",
+      "mcp__hackernews__hn_get_job_stories"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "hackernews"
+  ]
+}
